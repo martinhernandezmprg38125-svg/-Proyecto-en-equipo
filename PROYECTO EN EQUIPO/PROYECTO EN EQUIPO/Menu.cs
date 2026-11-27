@@ -38,29 +38,27 @@ namespace PROYECTO_EN_EQUIPO
 		
 		void Button2Click(object sender, EventArgs e)
 		{
-			Promedio y = new Promedio();
-			y.Show();
-			this.Hide();
+			
 		}
 		
 		void Button3Click(object sender, EventArgs e)
 		{
-			Reves r = new Reves();
-			r.Show();
-			this.Hide();
+			//Reves r = new Reves();
+			//r.Show();
+			//this.Hide();
 		}
 		
 		void Button4Click(object sender, EventArgs e)
 		{
-			Vocales m = new Vocales();
-			m.Show();
-			this.Hide();
+			//Vocales m = new Vocales();
+			//m.Show();
+			//this.Hide();
 		}
 		
 		void BTNPROMEDIOClick(object sender, EventArgs e)
 		{
-			Promedio f = new Promedio();
-			f.Show();
+			Promedio y = new Promedio();
+			y.Show();
 			this.Hide();
 		}
 	}
