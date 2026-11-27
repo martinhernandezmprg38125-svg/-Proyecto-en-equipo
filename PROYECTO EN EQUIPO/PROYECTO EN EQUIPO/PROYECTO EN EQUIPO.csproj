@@ -56,6 +56,10 @@
       <DependentUpon>Menu.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Promedio.cs" />
+    <Compile Include="Promedio.Designer.cs">
+      <DependentUpon>Promedio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -64,6 +68,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Menor_y_Mayor.resx">
       <DependentUpon>Menor_y_Mayor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Promedio.resx">
+      <DependentUpon>Promedio.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
