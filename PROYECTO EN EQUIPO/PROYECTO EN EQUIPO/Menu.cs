@@ -31,7 +31,30 @@ namespace PROYECTO_EN_EQUIPO
 		
 		void Button1Click(object sender, EventArgs e)
 		{
-			//Menor-y-Mayor.cs f = new Form
+			//Arreglos t = new Arreglos();
+			//t.Show();
+			//this.Hide();
+		}
+		
+		void Button2Click(object sender, EventArgs e)
+		{
+			//Promedio y = new Promedio();
+			//y.Show();
+			//this.Hide();
+		}
+		
+		void Button3Click(object sender, EventArgs e)
+		{
+			//Reves r = new Reves();
+			//r.Show();
+			//this.Hide();
+		}
+		
+		void Button4Click(object sender, EventArgs e)
+		{
+			//Vocales m = new Vocales();
+			//m.Show();
+			//this.Hide();
 		}
 	}
 }
