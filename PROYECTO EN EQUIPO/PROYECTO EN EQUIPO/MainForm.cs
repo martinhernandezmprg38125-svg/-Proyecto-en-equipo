@@ -29,5 +29,15 @@ namespace PROYECTO_EN_EQUIPO
 			// TODO: Add constructor code after the InitializeComponent() call.
 			//
 		}
+		
+		void Button1Click(object sender, EventArgs e)
+		{
+			if(txtUsuario.Text == "CBTIS217" || txtContraseña.Text == "1234")
+			{
+				Menu y = new Menu();
+				y.Show();
+				this.Hide();
+			}
+		}
 	}
 }
