@@ -38,49 +38,35 @@ namespace PROYECTO_EN_EQUIPO
 		{
 			this.label1 = new System.Windows.Forms.Label();
 			this.button1 = new System.Windows.Forms.Button();
-			this.button2 = new System.Windows.Forms.Button();
 			this.button3 = new System.Windows.Forms.Button();
 			this.button4 = new System.Windows.Forms.Button();
+			this.BTNPROMEDIO = new System.Windows.Forms.Button();
 			this.SuspendLayout();
 			// 
 			// label1
 			// 
 			this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-			this.label1.Location = new System.Drawing.Point(72, 11);
-			this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+			this.label1.Location = new System.Drawing.Point(54, 9);
 			this.label1.Name = "label1";
-			this.label1.Size = new System.Drawing.Size(233, 28);
+			this.label1.Size = new System.Drawing.Size(175, 23);
 			this.label1.TabIndex = 0;
 			this.label1.Text = "Menu Principal";
 			// 
 			// button1
 			// 
-			this.button1.Location = new System.Drawing.Point(17, 59);
-			this.button1.Margin = new System.Windows.Forms.Padding(4);
+			this.button1.Location = new System.Drawing.Point(13, 48);
 			this.button1.Name = "button1";
-			this.button1.Size = new System.Drawing.Size(140, 57);
+			this.button1.Size = new System.Drawing.Size(105, 46);
 			this.button1.TabIndex = 1;
 			this.button1.Text = "ARREGLOS";
 			this.button1.UseVisualStyleBackColor = true;
 			this.button1.Click += new System.EventHandler(this.Button1Click);
 			// 
-			// button2
-			// 
-			this.button2.Location = new System.Drawing.Point(228, 59);
-			this.button2.Margin = new System.Windows.Forms.Padding(4);
-			this.button2.Name = "button2";
-			this.button2.Size = new System.Drawing.Size(135, 57);
-			this.button2.TabIndex = 2;
-			this.button2.Text = "ARREGLOS Y PROMEDIO";
-			this.button2.UseVisualStyleBackColor = true;
-			this.button2.Click += new System.EventHandler(this.Button2Click);
-			// 
 			// button3
 			// 
-			this.button3.Location = new System.Drawing.Point(17, 183);
-			this.button3.Margin = new System.Windows.Forms.Padding(4);
+			this.button3.Location = new System.Drawing.Point(13, 149);
 			this.button3.Name = "button3";
-			this.button3.Size = new System.Drawing.Size(140, 49);
+			this.button3.Size = new System.Drawing.Size(105, 40);
 			this.button3.TabIndex = 3;
 			this.button3.Text = "PALABRA AL REVES";
 			this.button3.UseVisualStyleBackColor = true;
@@ -88,34 +74,42 @@ namespace PROYECTO_EN_EQUIPO
 			// 
 			// button4
 			// 
-			this.button4.Location = new System.Drawing.Point(228, 183);
-			this.button4.Margin = new System.Windows.Forms.Padding(4);
+			this.button4.Location = new System.Drawing.Point(171, 149);
 			this.button4.Name = "button4";
-			this.button4.Size = new System.Drawing.Size(135, 49);
+			this.button4.Size = new System.Drawing.Size(101, 40);
 			this.button4.TabIndex = 4;
 			this.button4.Text = "¿CUANTAS VOCALES TIENE?";
 			this.button4.UseVisualStyleBackColor = true;
 			this.button4.Click += new System.EventHandler(this.Button4Click);
 			// 
+			// BTNPROMEDIO
+			// 
+			this.BTNPROMEDIO.Location = new System.Drawing.Point(171, 48);
+			this.BTNPROMEDIO.Name = "BTNPROMEDIO";
+			this.BTNPROMEDIO.Size = new System.Drawing.Size(101, 46);
+			this.BTNPROMEDIO.TabIndex = 5;
+			this.BTNPROMEDIO.Text = "ARREGLOS Y PROMEDIO";
+			this.BTNPROMEDIO.UseVisualStyleBackColor = true;
+			this.BTNPROMEDIO.Click += new System.EventHandler(this.BTNPROMEDIOClick);
+			// 
 			// Menu
 			// 
-			this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
 			this.BackColor = System.Drawing.Color.Cyan;
-			this.ClientSize = new System.Drawing.Size(379, 321);
+			this.ClientSize = new System.Drawing.Size(284, 261);
+			this.Controls.Add(this.BTNPROMEDIO);
 			this.Controls.Add(this.button4);
 			this.Controls.Add(this.button3);
-			this.Controls.Add(this.button2);
 			this.Controls.Add(this.button1);
 			this.Controls.Add(this.label1);
-			this.Margin = new System.Windows.Forms.Padding(4);
 			this.Name = "Menu";
 			this.Text = "Menu";
 			this.ResumeLayout(false);
 		}
 		private System.Windows.Forms.Button button4;
 		private System.Windows.Forms.Button button3;
-		private System.Windows.Forms.Button button2;
+		private System.Windows.Forms.Button BTNPROMEDIO;
 		private System.Windows.Forms.Button button1;
 		private System.Windows.Forms.Label label1;
 	}

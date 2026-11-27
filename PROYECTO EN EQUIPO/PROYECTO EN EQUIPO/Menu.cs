@@ -56,5 +56,12 @@ namespace PROYECTO_EN_EQUIPO
 			m.Show();
 			this.Hide();
 		}
+		
+		void BTNPROMEDIOClick(object sender, EventArgs e)
+		{
+			Promedio f = new Promedio();
+			f.Show();
+			this.Hide();
+		}
 	}
 }
