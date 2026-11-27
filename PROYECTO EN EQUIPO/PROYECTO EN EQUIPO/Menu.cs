@@ -36,12 +36,6 @@ namespace PROYECTO_EN_EQUIPO
 			//this.Hide();
 		}
 		
-		void Button2Click(object sender, EventArgs e)
-		{
-			//Promedio y = new Promedio();
-			//y.Show();
-			//this.Hide();
-		}
 		
 		void Button3Click(object sender, EventArgs e)
 		{
@@ -55,6 +49,13 @@ namespace PROYECTO_EN_EQUIPO
 			//Vocales m = new Vocales();
 			//m.Show();
 			//this.Hide();
+		}
+		
+		void BTNPROMEDIOClick(object sender, EventArgs e)
+		{
+			Promedio f = new Promedio();
+			f.Show();
+			this.Hide();
 		}
 	}
 }
